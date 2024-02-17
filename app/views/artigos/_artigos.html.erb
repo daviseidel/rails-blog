@@ -1,0 +1,12 @@
+<% @artigos.each do |artigo| %>
+<div class="col col-sm-4 p-2 m-1" id="<%= artigo.id %>" style="width: 20rem;">
+    <div class="card" style="width: 18rem;">
+      <img src="https://picsum.photos/seed/<%= artigo.created_at%>/600/400" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><%= artigo.titulo %></h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <%= link_to artigo.titulo, artigo, class: "btn btn-primary"%>
+        </div>
+    </div>
+</div>
+<% end %>
