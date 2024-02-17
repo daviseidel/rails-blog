@@ -1,0 +1,17 @@
+<%= form_with model: @artigo do |formulario|%>
+<div class="">
+    <div>
+        <%= formulario.label :titulo, class: "form-label"%>
+        <%= formulario.text_field :titulo, class: "form-control" %>
+    </div>
+
+    <div>
+        <%= formulario.label :corpo, class: "form-label" %>
+        <%= formulario.text_area :corpo, class: "form-control" %>
+    </div>
+
+    <div>
+        <%= formulario.submit :class => "btn btn-primary"%>
+    </div>
+</div>
+<% end %>
