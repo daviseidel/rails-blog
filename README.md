@@ -7,7 +7,7 @@ This is my starter project for learning ruby on rails. It covers basic CRUD, and
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/developer-portfolio-blog.git
+    git clone https://github.com/daviseidel/rails-blog
     ```
 
 2. Install dependencies:
