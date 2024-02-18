@@ -1,24 +1,41 @@
-# README
+# Ruby on Rails Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my starter project for learning ruby on rails. It covers basic CRUD, and styling with bootstrap.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+1. Clone the repository:
 
-* System dependencies
+    ```bash
+    git clone https://github.com/your-username/developer-portfolio-blog.git
+    ```
 
-* Configuration
+2. Install dependencies:
 
-* Database creation
+    ```bash
+    bundle install
+    ```
 
-* Database initialization
+3. Set up the database:
 
-* How to run the test suite
+    ```bash
+    rails db:migrate
+    ```
 
-* Services (job queues, cache servers, search engines, etc.)
+4. Start the server:
 
-* Deployment instructions
+    ```bash
+    rails server
+    ```
 
-* ...
+5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+## Configuration
+
+- Customize the application by modifying the views, styles, and configurations in the respective directories.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
